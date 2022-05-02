@@ -5,6 +5,7 @@ public class ANumbersGame {
     int max = 50;
     int secretNumber;
     int numberOfGuesses = 0;
+    
     public static void main(String[] args) {
         ANumbersGame aNumbersGame = new ANumbersGame();
         aNumbersGame.playGame();
